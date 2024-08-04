@@ -62,7 +62,7 @@ const Dogs=[
 ]
 
 root.render(
-  <div className="grid-containeru">
+  <div className="grid-container">
     {
     Dogs.map(function(item,index){
       return <Pics key={index} pic={item.imageUrl} name={item.dname}></Pics>
